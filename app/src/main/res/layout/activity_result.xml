@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:background="#3a3a3a"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="OYUN BİTTİ"
+        android:textSize="55sp"/>
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Puan: 0"
+        android:textSize="50sp"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:id="@+id/highScoreTextView"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="En yüksek puan: 0"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/againButton"
+        android:layout_width="179dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="50dp"
+        android:text="Tekrar Oyna"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+</LinearLayout>
